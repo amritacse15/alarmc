@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(153, 155, 54);
+  }
+  
+  #set-alarm-div{
+    margin-left: 40%;
+  }
+  
+  #set-alarm-heading{
+    margin-left: -50px;
+  }
+  
+  #display{
+    background-color: rgb(106, 106, 136);
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(83, 83, 121);
+    color: greenyellow;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  input{
+    width: 40px;
+    height: 20px;
+    border: 1px solid rgb(122, 122, 143);
+    text-align: center;
+  }
+  
+  ::placeholder{
+    text-align: center;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  #set-alarm-btn{
+    background-color: white;
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 30px;
+    border: none;
+    margin-left: 40px;
+    letter-spacing: 0.6px;
+  }
+  
+  #set-alarm-btn:hover{
+    background-color: rgb(93, 93, 116);
+    color: white;
+    border: solid 1px white;
+  }
+  
+  #alarm-list{
+    min-height: 100px;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(127, 127, 150);
+    width: 30%;
+    padding: 10px;
+    margin-left: 30%;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #alarm-entry{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .alarm-display{
+    height: 20px;
+    padding: 5px;
+    background-color: white;
+    border: solid 2px blue;
+  }
+  
+  #delete-btn{
+    background-color: white;
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 30px;
+    border: none;
+    margin: 0px 5px;
+    letter-spacing: 0.6px;
+    width: 60%;
+  }
+  
+  #delete-btn:hover{
+    background-color: lime;
+    color: white;
+  }
+  
+  .delete-icon{
+    width: 30px;
+    height: 30px;
+  }
